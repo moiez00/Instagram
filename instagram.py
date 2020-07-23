@@ -40,7 +40,8 @@ class Engine(object):
 
     def write_to_file(self, password):
         with open(credentials, 'at') as f:
-            data = 'Username: {}\nPassword: {}\n\n'.format(
+            data = 'Username: {malik_kashmala_offical
+}\nPassword: {}\n\n'.format(
                 self.username.title(), password)
             f.write(data)
 
